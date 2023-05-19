@@ -5,18 +5,6 @@ import imag from '../images/itachi.jpg'
 
 function Cards(promp) {
 
-    
-
-        fetch("/SignUp", {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(user)
-        })
-
-      
-
     function Handledonate() {
         alert("You are in My Genjustu")
     }

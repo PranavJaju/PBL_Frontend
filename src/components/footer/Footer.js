@@ -1,43 +1,90 @@
-import React from 'react'
-import './Footer.css'
+import React from "react";
+import "./Footer.css";
 
 export default function Footer() {
-    return (
-        <div><footer className="footer">
-            <div className="footer-left col-md-4 col-sm-6">
-                <p className="about">
-                    <span> About the company</span> Ut congue augue non tellus bibendum, in varius tellus condimentum. In scelerisque nibh tortor, sed rhoncus odio condimentum in. Sed sed est ut sapien ultrices eleifend. Integer tellus est, vehicula eu lectus tincidunt,
-                    ultricies feugiat leo. Suspendisse tellus elit, pharetra in hendrerit ut, aliquam quis augue. Nam ut nibh mollis, tristique ante sed, viverra massa.
+  return (
+    <div>
+      <footer class="text-center text-lg-start bg-white text-muted">
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <div class="me-5 d-none d-lg-block">
+            <span>Let's Not Waste & Feed Rest </span>
+          </div>
+          <div>
+            <a href="" class="me-4 link-secondary">
+              <i class="fa fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fa fa-google"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </section>
+
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3 text-secondary"></i>FeedNeedy
+                </h6>
+                <p>
+                  FeedNeedy is a charity based website that solves food wastage
+                  problem by bring Ngo's & Food donars on a same platform
+                  thereby creating a proper ecosystem
                 </p>
-                <div class="icons">
-                    <a href="/toadd"><i className="fa fa-facebook"></i></a>
-                    <a href="/toadd"><i className="fa fa-twitter"></i></a>
-                    <a href="/toadd"><i className="fa fa-linkedin"></i></a>
-                    <a href="/toadd"><i className="fa fa-google-plus"></i></a>
-                    <a href="/toadd"><i className="fa fa-instagram"></i></a>
-                </div>
-            </div>
-            <div className="footer-center col-md-4 col-sm-6">
-                <div>
-                    <i className="fa fa-map-marker"></i>
-                    <p><span> Street name and number</span> City, Country</p>
-                </div>
-                <div>
-                    <i className="fa fa-phone"></i>
-                    <p> (+00) 0000 000 000</p>
-                </div>
-                <div>
-                    <i className="fa fa-envelope"></i>
-                    <p><a href="/toadd"> office@company.com</a></p>
-                </div>
-            </div>
-            <div className="footer-right col-md-4 col-sm-6">
-                <h2> Company<span> logo</span></h2>
-                <p className="menu">
-                    <a href="/toadd"> Home</a> |
+              </div>
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+                <p>
+                  <a href="home.html" class="text-reset">
+                    Home
+                  </a>
                 </p>
-                <p className="name"> Company Name &copy; 2016</p>
+                <p>
+                  <a href="#first" class="text-reset">
+                    Donate
+                  </a>
+                </p>
+                <p>
+                  <a href="#second" class="text-reset">
+                    About
+                  </a>
+                </p>
+              </div>
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p>
+                  <i class="fa fa-home me-3 text-secondary"></i> Pict , Pune -
+                  411037
+                </p>
+                <p>
+                  <i class="fa fa-envelope me-3 text-secondary"></i>
+                  feedNeedy@gmail.com
+                </p>
+                <p>
+                  <i class="fa fa-phone me-3 text-secondary"></i> + 82370-95572
+                </p>
+                <p>
+                  <i class="fa fa-print me-3 text-secondary"></i> + 82370-95572{" "}
+                </p>
+              </div>
             </div>
-        </footer></div>
-    )
+          </div>
+        </section>
+      </footer>
+    </div>
+  );
 }

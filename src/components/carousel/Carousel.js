@@ -1,6 +1,6 @@
 import React from 'react'
-import i1 from './../images/i1.jpg';
-import i2 from './../images/i2.jpg';
+import poster1 from './../images/Carousel1.png';
+import poster2 from './../images/Carousel2.png';
 import i4 from './../images/i4.jpg';
 import './Carousel.css'
 
@@ -15,10 +15,10 @@ export default function Carousel() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={i1} class="d-block w-100" alt="..." />
+                        <img src={poster1} class="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src={i2} class="d-block w-100" alt="..." />
+                        <img src={poster2} class="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item">
                         <img src={i4} class="d-block w-100" alt="..." />
