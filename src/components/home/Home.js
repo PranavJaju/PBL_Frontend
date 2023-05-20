@@ -19,8 +19,9 @@ const Home = () => {
       <div className="container3">
         <Description />
       </div>
-
-
+      <div className="team-section">
+        
+      </div>
       <div className="container5">
         <Footer />
       </div>
